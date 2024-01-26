@@ -1,0 +1,93 @@
+
+.desktop .group {
+    position: relative;
+    width: 385px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    top: 0;
+    left: 21px;
+    cursor: pointer;
+}
+
+.desktop .overlap-group-2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: var(--gold);
+    border-radius: 50px;
+}
+
+.desktop .text-wrapper-3 {
+    top: 5px;
+    left: 7px;
+    font-family: "Calibri-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+    position: absolute;
+    width: 265px;
+    top: 2px;
+    left: 66px;
+    font-family: "Calibri-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffe6;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .overlap-group-2 svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    color: #999;
+}
+.desktop .overlap-group-2.item-active svg{
+    color: black;
+}
+
+.desktop .gridicons-cross {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    left: 355px;
+    cursor: pointer;
+    color: gold;
+}
+
+.desktop .vector {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 8px;
+    left: 8px;
+}
+
+.desktop .line {
+    position: absolute;
+    width: 385px;
+    height: 1px;
+    top: 35px;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-4.item-completed {
+    text-decoration: line-through;
+}

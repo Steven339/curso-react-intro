@@ -1,0 +1,35 @@
+.desktop button.add-button {
+    position: relative;
+    width: 103px;
+    height: 35px;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    left: 425px;
+    bottom: 90px;
+    cursor: pointer;
+}
+
+.desktop button .overlap-group {
+    position: relative;
+    width: 101px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: var(--gold);
+    background: none;
+}
+
+.desktop button .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffd700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}

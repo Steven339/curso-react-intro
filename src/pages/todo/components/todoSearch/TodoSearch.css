@@ -1,0 +1,29 @@
+.box {
+    width: 270px;
+    height: 35px;
+    position: relative;
+    top: 246px;
+    left: 148px;
+}
+
+.box .rectangle {
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff99;
+    border-radius: 3px;
+}
+.box .rectangle input {
+    background: none;
+    border: none;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffffcc;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
